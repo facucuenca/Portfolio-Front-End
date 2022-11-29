@@ -1,14 +1,10 @@
 div{
-    background-color: blue;
-  
-    
+    background-color: blue;    
 }
 app-social{
     float: right;
-    margin-top: 25px;
-	
+    margin-top: 25px;	
 }
-
 .conteiner{
     display: flex;
     justify-content: space-between;
@@ -22,7 +18,7 @@ app-social{
     width: 150px;
 }
 img{
-    width: 50px;
+    width: 100px;
 }
 .btn{
     border-width: medium;
@@ -41,4 +37,74 @@ img{
         margin: 0.1em;
     }
 }
-
+/*acerca de mi*/
+.row{
+    padding: 30px;
+}
+div{
+    background-color: #a1b5cb;
+    text-align: center;
+}
+/*estilo foto de perfil*/
+@media (min-width: 576px){
+    #foto{
+        position: absolute;
+        width: 20%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px  blue;
+        left: 3%;
+        top: 50%;        
+    }
+}
+@media (max-width: 575px){
+    #foto{
+        position: absolute;
+        width: 30%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px  blue;
+        left: 3%;
+        top: 50%;        
+    }
+}
+/* etiqueta nombre*/
+#nombre{
+    font-weight: bold;
+    margin-top: 75%;    
+}
+/*experiencia*/
+.row{
+    padding: 20px;
+}
+div{
+    background-color: #a1b5cb;
+}
+h1, h3{
+    display: inline;
+}
+/*educacion*/
+.row{
+    padding: 20px;
+}
+div{
+    background-color: #a1b5cb;
+}
+h1, h3{
+    display: inline;
+}
+/*hys*/
+.row{
+    background-color: #a1b5cb;
+    padding: 20px;
+}
+/*fooder*/
+.row{
+    background-color: #a1b5cb;
+}
+footer{
+    color: red;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 2px -2px spx #999;
+}
