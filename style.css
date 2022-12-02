@@ -1,8 +1,7 @@
-.body{
-    margin: 0;
-}
 #encabezado{
     background-color: blue;
+    display: flex;
+    justify-content: space-between;
 }
 .conteiner{
     display: flex;
@@ -15,8 +14,9 @@
     background-color: blue;
 }
 #logoap{
-    width: 400px;
-    right: 75%;
+    margin: 0;
+    width: 250px;
+    right: 30%;
     background-color: blue;
 }
 img{
@@ -36,7 +36,7 @@ img{
         align-items: center;
     }
     .redes{
-        margin: 0.1em;
+        margin: 0.5em;
     }
 }
 /*acerca de mi*/
@@ -51,11 +51,11 @@ div{
 @media (min-width: 576px){
     #foto{
         position: absolute;
-        width: 20%;
+        width: 30%;
         border-radius: 100%;
         box-shadow: 3px 3px 3px  blue;
         left: 3%;
-        top: 50%;        
+        top: 115%;        
     }
 }
 @media (max-width: 575px){
@@ -65,13 +65,13 @@ div{
         border-radius: 100%;
         box-shadow: 3px 3px 3px  blue;
         left: 3%;
-        top: 50%;        
+        top:115%;        
     }
 }
 /* etiqueta nombre*/
 #nombre{
     font-weight: bold;
-    margin-top: 75%;    
+    margin-top: 85%;    
 }
 /*experiencia*/
 .experiencia{
@@ -104,7 +104,7 @@ footer{
     display: flex;
     flex-direction: column;
     text-align: center;
-    box-shadow: 2px -2px spx #999;
+    box-shadow: 2px -2px spx #a1b5cb;
 }
 /*hys*/
 .hys{
