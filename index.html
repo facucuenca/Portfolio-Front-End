@@ -7,7 +7,7 @@
             <link rel="stylesheet" href="style.css">
       <title>portfolio modulo2</title>
       <link rel="stylesheet" type="text/css" href="css/estilos.css" />
-    </head>
+  </head>
   <body>      
      <div class="row" id="encabezado">
         <div class="conteiner">
@@ -28,7 +28,7 @@
             <img src="assets\banner.jpg" alt="fotobanner" style="width:101%;height: 350px;">     
       </aside>
   <!--acerca de mi-->
-        <div class="row">
+        <div class="row" id="acerca de">
           <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
                 <img src="assets\fotodeperfil.jpg" class="img-fluid" id="foto">
           </div>
@@ -44,7 +44,7 @@
           </div>
         </div>
       <!--experiencia-->
-      <div class="row">
+      <div class="row" id="experiencia">
         <h1>EXPERIENCIA LABORAL</h1>
       <div class="col-lg-1"></div>
         <div class="col-lg-11">
@@ -63,7 +63,7 @@
         </div>
       </div>
   <!--educacion--> 
-        <div class="row">
+        <div class="row" id="educacion">
           <h1>EDUCACIÒN</h1>
         <div class="col-lg-1"></div>
           <div class="col-lg-11">
@@ -82,42 +82,28 @@
           </div>
         </div>       
      <!--hys-->
-    <div class="row">
+    <div class="row" id="hys">
         <h1>HARD & SOFT SKILLS</h1>
-        <div class="text-center col-sm-4 col-md-4 col-lg-4"></div>            
-        </div>
-        <div class="text-center col-sm-4 col-md-4 col-lg-4">
-            <div class="container d-flex justify-content-center padding">
-                <div class="row">
-                    <div class="col-md-9 col-sm-6">
-                        <div class="progress blue">
-                                <span class="progress-right">
-                                <span class="progress-bar"></span>
-                            </span>
-                            <div class="progress-value">100%</div>
-                        </div>
-                    </div>
-            
-                    
-                </div>
-            </div>
-            <div class="container d-flex justify-content-center padding">
-                <div class="row">
-                    <div class="col-md-9 col-sm-6">
-                        <div class="progress blue">
-                                <span class="progress-right">
-                                <span class="progress-bar"></span>
-                            </span>
-                            <div class="progress-value">100%</div>
-                        </div>
-                    </div>                             
-                </div>
-            </div>
-         </div>      
-    </div>
-    <!--proyecto--> 
-        <div class="row">
-            <div class="col-lg-1"></div>
+        <div class="text-center col-sm-4 col-md-4 col-lg-4"></div>
+        <div>
+            <img src="assets\html.png">
+            <label for="file">PROGRESO:</label>
+            <progress id="file" max="100" value="70"> 70% </progress>
+         </div> 
+         <div>
+            <img src="assets\CSS.png">
+            <label for="file">PROGRESO:</label>
+            <progress id="file" max="100" value="70"> 70% </progress>
+         </div>
+         <div>
+            <img src="assets\js.png">
+            <label for="file">PROGRESO:</label>
+            <progress id="file" max="100" value="70"> 70% </progress>
+         </div>           
+                   
+        <!--proyecto--> 
+     <div class="row">
+        <div class="col-lg-1"></div>
           <div class="col-lg-11">
             <div>
                 <Ul>
@@ -134,5 +120,5 @@
         </footer>
     </div>
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    </body>
+  </body>
 </html>
